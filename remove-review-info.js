@@ -1,8 +1,11 @@
 // ==UserScript==
-// @name     Metal Archives - Remove review information
-// @version  1.0
-// @include  /^https?://www\.metal-archives\.com/.*$/
-// @grant    none
+// @name	 Metal Archives - Remove review information
+// @description	 Remove review information from the band and album pages.
+// @version	 1.0
+// @include	 /^https?://www\.metal-archives\.com/.*$/
+// @grant	 none
+// @license	 Unlicense
+// @namespace	 https://github.com/quaepoena/MA-remove-review-info
 // ==/UserScript==
 
 (function () {
