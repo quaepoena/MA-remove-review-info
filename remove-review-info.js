@@ -9,7 +9,6 @@
     "use strict";
 
     let albumIntervalId = null;
-    let bandIntervalId = null;
     let stored_tables = [];
 
     /* Find the description term with the value "Reviews:" and set the
