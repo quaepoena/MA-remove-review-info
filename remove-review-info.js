@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name	 Metal Archives - Remove review information
 // @description	 Remove review information from the band and album pages.
-// @version	 1.0
+// @version	 1.1
 // @include	 /^https?://www\.metal-archives\.com/.*$/
 // @grant	 none
 // @license	 Unlicense
@@ -34,7 +34,7 @@
     function album_page() {
         if (!albumIntervalId) {
             albumIntervalId = window.setInterval(
-                remove_review_info_album_page, 250)
+                remove_review_info_album_page, 50)
         }
     }
 
